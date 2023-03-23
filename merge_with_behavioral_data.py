@@ -153,7 +153,6 @@ spr["context_length"] = spr.word_pos-1
 df_eye_erp_spr = pd.merge(df_eye_erp, spr, on=["sentence", "word", "context_length"], how="left")
 
 df_eye_erp_spr["self_paced_reading_time"] = df_eye_erp_spr["RT"]
-df_eye_erp_spr.columns
 
 df_all = df_eye_erp_spr[['item', 'word', 'word2', 'sentence', 'context_length', 'sent_id', 'item_id', 'list', 'rating_mean','rating_sd', 'cloze_p_smoothed', 'cloze_s', 'competition', 'entropy','ELAN', 'LAN', 'N400', 'EPNP', 'P600','PNP', 'RTfirstfix', 'RTfirstpass', 'RTrightbound', 'RTgopast','self_paced_reading_time', 'rnn', 'rnn_pos', 'psg', 'psg_pos', 'bigram', 'trigram','tetragram', 'bigram_pos', 'trigram_pos', 'tetragram_pos']]
 
