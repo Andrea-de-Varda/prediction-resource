@@ -20,7 +20,7 @@ Our dataset of cloze probability and predictability ratings is in the file `rati
 
 The code for our analyses is divided in four scripts:
 - `preprocessing.py`, which performs data cleaning and aggregation of results.
-- `merge_with_behavioural_data`, which merges our measurements with the neural and behavioural indexes of processing difficulty released by [Frank et al., (2013,](https://link.springer.com/article/10.3758/s13428-012-0313-y)[ 2015)](https://www.sciencedirect.com/science/article/pii/S0093934X14001515).
+- `merge_with_behavioural_data`, which merges our measurements with the neural and behavioural indexes of processing difficulty released by [Frank et al. (2013,](https://link.springer.com/article/10.3758/s13428-012-0313-y)[ 2015)](https://www.sciencedirect.com/science/article/pii/S0093934X14001515).
 - `get_LM_surprisal.py`, which extracts surprisal values (negative log-probabilities) for the words in our dataset from Transformer-based language models released on the [HuggingFace Hub](https://huggingface.co/models).
   - Surprisal is defined as $s(w_i) = -\log p(w_i | w_1, w_2, \ldots w_{i-1}) $
 - `plot.py`, which performs descriptive and inferential analyses and plots the results.
