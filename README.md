@@ -1,5 +1,5 @@
 # Cloze probability, ratings, and computational predictability estimates
-Scripts and data relative to the cloze probability response, predictability ratings and Transformer-based surprisal estimates for 205 sentences (1,726 words).
+Scripts and data relative to the _cloze probability responses_, _predictability ratings_ and _Transformer-based surprisal estimates_ for 205 sentences (1,726 words).
 
 The resource we release is aligned with:
 - **Behavioral data**
@@ -22,4 +22,4 @@ The code for our analyses is divided in four scripts:
 - `preprocessing.py`, which performs data cleaning and aggregation of results
 - `merge_with_behavioural_data`, which merges our measurements with the neural and behavioural indexes of processing difficulty released by [Frank et al., (2013,](https://link.springer.com/article/10.3758/s13428-012-0313-y)[2015)](https://www.sciencedirect.com/science/article/pii/S0093934X14001515)
 - `get_LM_surprisal.py`, which extracts surprisal values (legative log-probabilities) for the words in our dataset from Transformer-based language models released on the HuggingFace Hub.
-  - Surprisal is defined as $s(w_i) = -log p(w_i | w_1, w_2, \ldots w_{i-1}) $
+  - Surprisal is defined as $s(w_i) = -\log p(w_i | w_1, w_2, \ldots w_{i-1}) $
