@@ -14,7 +14,14 @@ The resource we release is aligned with:
 
 ### Our dataset
 
-Our dataset of cloze probability and predictability ratings is in the file `ratings_and_cloze.csv`; it is obtained from the item set `item-set.csv` from the UCL reading corpus [(Frank et al. 2013)](https://link.springer.com/article/10.3758/s13428-012-0313-y). The raw data (Prolific exports) can be found in the folders cp (cloze probability) and ratings. 
+Our dataset of cloze probability and predictability ratings is in the file `ratings_and_cloze.csv`; it is obtained from the item set `item-set.csv` from the UCL reading corpus [(Frank et al. 2013)](https://link.springer.com/article/10.3758/s13428-012-0313-y). This dataset is merged with the behavioral and neural measures described above in the dataframe `all_measures.csv`. The raw data (Prolific exports) can be found in the folders cp (cloze probability) and ratings. 
+
+:heavy_exclamation_mark: **Important note**
+If you use the neural and behavioral data, please cite:
+- For **EEG** data: 
+  - Frank, S. L., Otten, L. J., Galli, G., & Vigliocco, G. (2015). The ERP response to the amount of information conveyed by words in sentences. _Brain and language_, 140, 1-11.
+- For **behavioral** data:
+  - Frank, S. L., Fernandez Monsalve, I., Thompson, R. L., & Vigliocco, G. (2013). Reading time data for evaluating broad-coverage models of English sentence processing. _Behavior research methods_, 45, 1182-1190.
 
 ### The code
 
