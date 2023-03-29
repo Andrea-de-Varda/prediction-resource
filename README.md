@@ -2,14 +2,14 @@
 Scripts and data relative to the _cloze probability responses_, _predictability ratings_ and _Transformer-based surprisal estimates_ for 205 sentences (1,726 words).
 
 The resource we release is aligned with:
-- **Behavioral data**
+- :eyes: **Behavioral data**
   - Self-paced reading time ([Frank et al., 2013](https://link.springer.com/article/10.3758/s13428-012-0313-y))
   - Eye-tracking data ([Frank et al., 2013](https://link.springer.com/article/10.3758/s13428-012-0313-y))
     1. First fixation duration
     2. Gaze duration
     3. Right-bounded reading time
     4. Go-past reading time
-- **EEG data** ([Frank et al., 2015](https://www.sciencedirect.com/science/article/pii/S0093934X14001515))
+- :electric_plug: **EEG data** ([Frank et al., 2015](https://www.sciencedirect.com/science/article/pii/S0093934X14001515))
   - N400; EPNP; PNP; P600; ELAN; LAN.
 
 ### Our dataset
