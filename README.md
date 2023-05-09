@@ -31,3 +31,6 @@ The code for our analyses is divided in four scripts:
 - `get_LM_surprisal.py`, which extracts surprisal values (negative log-probabilities) for the words in our dataset from Transformer-based language models released on the [HuggingFace Hub](https://huggingface.co/models).
   - Surprisal is defined as $s(w_i) = -\log p(w_i | w_1, w_2, \ldots w_{i-1}) $
 - `plot.py`, which performs descriptive and inferential analyses and plots the results.
+
+### Contact
+If you have any troubles with the resource, please do not hesitate and [contact me](mailto:a.devarda@campus.unimib.it?subject=[GitHub]%20Source%20Han%20Sans)!
