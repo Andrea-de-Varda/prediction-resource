@@ -32,5 +32,8 @@ The code for our analyses is divided in four scripts:
   - Surprisal is defined as $s(w_i) = -\log p(w_i | w_1, w_2, \ldots w_{i-1}) $
 - `plot.py`, which performs descriptive and inferential analyses and plots the results.
 
+### Supplementary materials
+In the folder `supplementary_materials` you can find the complete results of the analyses we reported in our paper in a more searchable csv format.
+
 ### Contact :envelope:
 If you have any troubles with the resource, please do not hesitate and contact me at `a.devarda@campus.unimib.it`
