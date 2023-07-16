@@ -16,6 +16,8 @@ The resource we release is aligned with:
 
 Our dataset of cloze probability and predictability ratings is in the file `ratings_and_cloze.csv`; it is obtained from the item set `item-set.csv` from the UCL reading corpus [(Frank et al. 2013)](https://link.springer.com/article/10.3758/s13428-012-0313-y). This dataset is merged with the behavioral and neural measures described above in the dataframe `all_measures.csv`. The raw data (Prolific exports) can be found in the folders cp (cloze probability) and ratings. 
 
+We also release the cloze distributions (i.e., not only the probability assigned to the target words, but to all the words that were produced in the cloze task). They can be found in the `cloze_distribution` folder, both in `.txt` and `.pkl` format.
+
 :heavy_exclamation_mark: **Important note:**
 If you use the neural and behavioral data, or the older probabilistic estimates (RNN, PSG, _N_-grams) please cite:
 - For **EEG** data and older probabilistic estimates (RNN, PSG, _N_-grams): 
