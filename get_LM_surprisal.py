@@ -22,7 +22,7 @@ from math import e
 
 chdir("/path/to/your/wd/")
 
-df_all = pd.read_csv("all_measures.csv") # created in merge_with_behavioural_data.py
+df_all = pd.read_csv("all_measures.csv", dtype={ 'item':np.str_ }) # created in merge_with_behavioural_data.py. Make sure that strings with "None" are interpreted as strings and not float.
 
 ##################
 # GPT-2 VARIANTS #
