@@ -1,5 +1,8 @@
 ## Cloze probability, ratings, and computational predictability estimates
-Scripts and data relative to the _cloze probability responses_, _predictability ratings_ and _Transformer-based surprisal estimates_ for 205 sentences (1,726 words).
+Scripts and data for _cloze probability responses_, _predictability ratings_ and _Transformer-based surprisal estimates_ for 205 sentences (1,726 words) from the UCL reading corpus.
+
+A detailed description of the dataset can be found in the paper:
+de Varda, A. G., Marelli, M., & Amenta, S. (2023). [Cloze probability, predictability ratings, and computational estimates for 205 English sentences, aligned with existing EEG and reading time data.](https://link.springer.com/article/10.3758/s13428-023-02261-8) Behavior Research Methods, 1-24.
 
 The resource we release is aligned with:
 - :eyes: **Behavioral data**
