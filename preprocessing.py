@@ -13,7 +13,7 @@ warnings.simplefilter(action='ignore', category=UserWarning)
 
 chdir("/path/to/your/wd")
 
-item_set = pd.read_csv("item-set.csv")
+item_set = pd.read_csv("item-set.csv", dtype={ 'sentence':np.str_, 'word':np.str_, 'word2':np.str_})
 item_set["sentence"] = item_set["sentence"].str.strip()
 
 item_1 = item_set[item_set["list"] == 1] # dividing by list
