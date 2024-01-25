@@ -11,7 +11,7 @@ from math import e
 
 chdir("/path/to/your/wd")
 
-df = pd.read_csv("ratings_and_cloze.csv") # output of preprocessing.py
+df = pd.read_csv("ratings_and_cloze.csv", dtype={ 'item':np.str_ }) # output of preprocessing.py
 df.columns = ['item', 'word', 'word2', 'sent_id', 'item_id', 'list',
        'rating_mean', 'rating_sd', 'cloze_p_smoothed', 'cloze_s',
        'competition', 'entropy']
