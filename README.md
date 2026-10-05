@@ -20,13 +20,6 @@ Our dataset of cloze probability and predictability ratings is in the file `rati
 
 We also release the cloze distributions (i.e., not only the probability assigned to the target words, but to all the words that were produced in the cloze task). They can be found in the `cloze_distribution` folder, both in `.txt` and `.pkl` format.
 
-:heavy_exclamation_mark: **Important note:**
-If you use the neural and behavioral data, or the older probabilistic estimates (RNN, PSG, _N_-grams) please cite:
-- For **EEG** data and older probabilistic estimates (RNN, PSG, _N_-grams): 
-  - Frank, S. L., Otten, L. J., Galli, G., & Vigliocco, G. (2015). The ERP response to the amount of information conveyed by words in sentences. _Brain and language_, 140, 1-11.
-- For **behavioral** data:
-  - Frank, S. L., Fernandez Monsalve, I., Thompson, R. L., & Vigliocco, G. (2013). Reading time data for evaluating broad-coverage models of English sentence processing. _Behavior research methods_, 45, 1182-1190.
-
 ### The code
 
 The code for our analyses is divided in four scripts:
@@ -91,9 +84,9 @@ In the folder `supplementary_materials` you can find the complete results of the
 </details>
 
 ### License
-- **Our data** (cloze responses, predictability ratings, cloze distributions, surprisal estimates): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You can use and adapt it freely, as long as you cite our paper (see [How to cite](#bookmark-how-to-cite)).
+- **Our data** (cloze responses, predictability ratings, cloze distributions, surprisal estimates): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You can use and adapt it freely, as long as you cite our paper (see [How to cite](#-how-to-cite)).
 - **Code**: [MIT License](LICENSE).
-- **Not covered by this license:** the sentences (`item-set.csv`) and the reading time and EEG measures in `all_measures.csv`. These come from Frank et al. (2013, 2015) and are redistributed here with permission from Stefan Frank. They remain under their original terms, so please cite the original papers (see [How to cite](#bookmark-how-to-cite)).
+- **Not covered by this license:** the sentences (`item-set.csv`) and the reading time and EEG measures in `all_measures.csv`. These come from Frank et al. (2013, 2015) and are redistributed here with permission from Stefan Frank. They remain under their original terms, so please cite the original papers (see [How to cite](#-how-to-cite)).
 
 ### Contact :envelope:
 If you have any troubles with the resource, please do not hesitate and contact me at `devar_ag` 
