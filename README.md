@@ -32,7 +32,7 @@ The code for our analyses is divided in four scripts:
 ### Supplementary materials
 In the folder `supplementary_materials` you can find the complete results of the analyses we reported in our paper in a more searchable csv format.
 
-### :bookmark: How to cite
+### How to cite
 
 **If you use any part of this resource**, please cite our paper:
 
@@ -84,9 +84,9 @@ In the folder `supplementary_materials` you can find the complete results of the
 </details>
 
 ### License
-- **Our data** (cloze responses, predictability ratings, cloze distributions, surprisal estimates): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You can use and adapt it freely, as long as you cite our paper (see [How to cite](#-how-to-cite)).
-- **Code**: [MIT License](LICENSE).
-- **Not covered by this license:** the sentences (`item-set.csv`) and the reading time and EEG measures in `all_measures.csv`. These come from Frank et al. (2013, 2015) and are redistributed here with permission from Stefan Frank. They remain under their original terms, so please cite the original papers (see [How to cite](#-how-to-cite)).
+- **Our data** (cloze responses, predictability ratings, cloze distributions, surprisal estimates): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You can use and adapt it freely, as long as you cite our paper (see [How to cite](#how-to-cite)).
+- **Code**: MIT License.
+- **Not covered by this license:** the sentences (`item-set.csv`) and the reading time and EEG measures in `all_measures.csv`. These come from Frank et al. (2013, 2015) and are redistributed here with permission from Stefan Frank. They remain under their original terms, so please cite the original papers (see [How to cite](#how-to-cite)).
 
 ### Contact :envelope:
-If you have any troubles with the resource, please do not hesitate and contact me at `devar_ag` 
+If you have any troubles with the resource, please do not hesitate and contact me at `devar_ag` ✾ `mit` ✧ `edu`
